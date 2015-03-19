@@ -5,8 +5,8 @@ import java.util.*;
 
 public class DBUtilities
 {
-	public static final String DBUSER = "sqldmrex";
-	public static final String DBPWD = "r3nt0n";
+	public static final String DBUSER = "";
+	public static final String DBPWD = "";
 
 	public static ResultSet ExecuteStoredProc(String sDbName, String sStoredProcName,
 		String sSingleParamName, String sSingleParamValue)
